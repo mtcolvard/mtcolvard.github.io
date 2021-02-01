@@ -1,5 +1,7 @@
 .App {
   text-align: left;
+  background-color: hsl(50, 46%, 82%);
+
 }
 
 hr {
@@ -51,18 +53,41 @@ hr {
 }
 
 .headspace {
-  margin-top: 1em;
+  padding-top: 3em;
+}
+.footspace {
+  padding-bottom: 3em;
 }
 .breakspace {
-  margin-top: 1em;
+  margin-top: 1.25em;
+}
+.half-breakspace {
+  margin-top: 0.625em;
 }
 
+.foxy-map-div {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.foxy-map {
+  width: 100vmin;
+}
+.purple-map-div {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.purple-map {
+  width: 80vmin;
+}
 .subtitle-mod {
   color: #4a4a4a;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.25;
 }
+
 .paragraph-mod {
   color: #4a4a4a;
   font-size: 1.25rem;
